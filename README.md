@@ -10,14 +10,12 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 # Dataset Details
 
-* The data has 8523 rows of 12 variables.
-* Variable - Details
+The data has 8523 rows of 12 variables. Variable - Details are:
 
-Item_Identifier- Unique product ID
-
-Item_Weight- Weight of product
-Item_Fat_Content - Whether the product is low fat or not
-Item_Visibility - The % of total display area of all products in a store allocated to the particular product
+* Item_Identifier- Unique product ID
+* Item_Weight- Weight of product
+* Item_Fat_Content - Whether the product is low fat or not
+* Item_Visibility - The % of total display area of all products in a store allocated to the particular product
 Item_Type - The category to which the product belongs
 Item_MRP - Maximum Retail Price (list price) of the product
 Outlet_Identifier - Unique store ID
