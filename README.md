@@ -40,4 +40,5 @@ The data has 8523 rows of 12 variables. Variable - Details are:
 * Label Encoding
 * PreProcessing Data
 * Modeling
+* Linear Regression, Lasso, Ridge, Decision Tree, Random Forest, XGBoost, Adaboost, Extra Tree, SVM and KNN
 * Deployment
