@@ -10,9 +10,8 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 # Dataset Details
 
-The data has 8523 rows of 12 variables.
-
-Variable - Details
+* The data has 8523 rows of 12 variables.
+* Variable - Details
 
 Item_Identifier- Unique product ID
 
