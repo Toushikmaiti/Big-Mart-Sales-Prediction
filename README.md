@@ -47,8 +47,37 @@ The data has 8523 rows of 12 variables. Variable - Details are:
 
 * Item_Fat_Content: Most Items sold are low Fat.
 * Item_Type: Distictly fruits & veg, snacks food are popular.
-Item_Type_Combined: Most Sold Item cateogory is food.
-Outlet_Identifier: Sold items are ditributed evenly amoung all stores, execpt OUT010 and OUT019.
-Outlet_Size: Bigmart Stores are mostly in medium size in this data.
-Outlet_Location_Type: Most comon type of location is Tier3
-Outlet_Type: By a wide mergin Most Store Types are SuperMarket Type1.
+* Item_Type_Combined: Most Sold Item cateogory is food.
+* Outlet_Identifier: Sold items are ditributed evenly amoung all stores, execpt OUT010 and OUT019.
+* Outlet_Size: Bigmart Stores are mostly in medium size in this data.
+* Outlet_Location_Type: Most comon type of location is Tier3
+* Outlet_Type: By a wide mergin Most Store Types are SuperMarket Type1.
+* Outlet_Age: Most Common Outlets are 35 year's old.
+* Item_Visibility: Looks like it has negative correlation.
+* Item_Weight: Not a particular Pattern, Data is very spreaded.
+* Item_MRP: Items with higer MRP Sales tends to sell better.
+* Item_Type_Combined: Based on Categories, Food has most Sells, But difference is very small.
+* Outlet_Identifier: Outlet027 has most profitable, and Outlet019 and Outlet010 has least Sells.
+* Outlet_Type: Most Sells are through SuperMarket Type3 surprisingly not Type1.
+* Outlet_Size: Sells are mostly even in Medium and High size Stores.
+* Outlet_Location_Type: Most sells are through Tier2, but difference with Tier1 and Tier2 is very small.
+* Seafood is the most item_type sold in SuperMarket 2, Grocery store has less sales.
+* Only Teir3 has all Outlet_Type, and SuperMarket type3 has most sales.
+* Outlet_Location_Type has almost equal sales based on Item_Type_combined.
+* Supermarket Type 1 outlet is present all the Outlet_Location.
+* Item_Outlet_Sales is highly correlated with Item_MRP.
+* Outlet_Age and Item_Visibility are negativaly correlated.
+* Item_Weight and Outlet_Eastablishment_Year is also positive correlated.
+
+
+# Predictive behavior modeling
+
+1. Splitting data into train and test data in 80:20 ratio.
+2. Model Building and training ten different regression models on the 80% training split: Linear Regression, Ridge Regression, Lasso Regression, Decision Tree Regressor, Random Forest Regressor, XGBoost Regressor, Extra Tree Regressor, Ada Boost Regressor, Support Vector Regressor and KNN Regressor that will gives the sales prediction.
+Making predictions from the model
+Testing the performance of the model using MSE, MAE, RMSE and R2 Score.
+
+# Choose the most Appropriate model
+
+* The Support Vector Regressor provides the lowest MSE value: 0.27 and heighest R2 Score: 0.72. The Random Forest Regressor algorithm also provides the MSE value : 0.29 and R2 Score : 0.70.
+* The Support Vector Regressor is best possible technique to predict the Bigmart sales.
