@@ -42,3 +42,13 @@ The data has 8523 rows of 12 variables. Variable - Details are:
 * Modeling
 * Linear Regression, Lasso, Ridge, Decision Tree, Random Forest, XGBoost, Adaboost, Extra Tree, SVM and KNN
 * Deployment
+
+# Insights
+
+* Item_Fat_Content: Most Items sold are low Fat.
+* Item_Type: Distictly fruits & veg, snacks food are popular.
+Item_Type_Combined: Most Sold Item cateogory is food.
+Outlet_Identifier: Sold items are ditributed evenly amoung all stores, execpt OUT010 and OUT019.
+Outlet_Size: Bigmart Stores are mostly in medium size in this data.
+Outlet_Location_Type: Most comon type of location is Tier3
+Outlet_Type: By a wide mergin Most Store Types are SuperMarket Type1.
